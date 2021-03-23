@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build with Gradle
-        run: sleep 10
-        run: echo Win
+        run: sleep 10 && echo Win
