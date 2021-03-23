@@ -6,7 +6,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    if: github.repository == 'spring-projects/spring-security'
     steps:
       - name: Build with Gradle
         run: echo Win
